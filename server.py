@@ -9,7 +9,7 @@ server.bind((host, port))  # bind the server with the host
 server.listen()  # turn the server to listening mode
 
 clients = []  # all clients connected
-usernames = []  # alias
+usernames = []  # users
 
 
 def broadcast(message):
