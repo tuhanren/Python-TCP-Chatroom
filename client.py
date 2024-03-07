@@ -3,7 +3,7 @@ import socket
 
 username = input('Please enter your username: ')
 
-client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # creation of socket
 client.connect(('127.0.0.1', 55555))  # connect to the server
 
 

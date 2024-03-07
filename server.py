@@ -4,7 +4,7 @@ import socket
 host = '127.0.0.1'  # localhost - local desktop
 port = 55555  # a free port
 
-server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # creation of socket
 server.bind((host, port))  # bind the server with the host
 server.listen()  # turn the server to listening mode
 
